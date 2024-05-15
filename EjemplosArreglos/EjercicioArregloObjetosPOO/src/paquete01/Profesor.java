@@ -9,6 +9,7 @@ package paquete01;
  *
  * @author reroes
  */
+
 public class Profesor {
 
     private String nombre;
