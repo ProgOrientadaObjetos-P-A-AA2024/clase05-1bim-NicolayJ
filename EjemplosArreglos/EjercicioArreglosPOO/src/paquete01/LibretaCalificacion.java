@@ -98,7 +98,7 @@ public class LibretaCalificacion {
         //        cadena, obtenerPromedio(), obtenerPromedioCualitativo());
         
         cadena = String.format("%sPromedio calificaciones: %.2f\n"
-                 + "Promedio cuantitativo: %s\n",
+                 + "Promedio cualitativo: %s\n",
                 cadena, promedio, promedioCualitativo);
         return cadena;
     }

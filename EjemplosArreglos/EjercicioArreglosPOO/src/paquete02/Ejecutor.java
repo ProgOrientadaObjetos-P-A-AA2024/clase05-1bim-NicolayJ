@@ -40,7 +40,7 @@ public class Ejecutor {
                 calificacionesEstudiante);
         // Se llama a los métodos que realizan el calculo del
         // promedio y promedio cualitativo
-        libreta.establecerPromedio();
+        libreta.establecerPromedio(); 
         libreta.establecerPromedioCualitativo();
         System.out.printf("\n%s\n", libreta);
     }
