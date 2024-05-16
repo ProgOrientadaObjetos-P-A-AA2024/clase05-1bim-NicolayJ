@@ -18,6 +18,13 @@ public class Ejecutor {
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
                 
+        c1.establecerProfesor(profesor1);
+        c1.establecerProfesor(profesor2);
+        c1.establecerProfesor(profesor3);
+        /*
+        c1 lo que hace a travez del metodo establecerProfesor es reescribir el 
+        atributo profesor del constructor de la clase Calificacion
+        */
         Calificacion [] lista = {c1, c2, c3}; 
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
