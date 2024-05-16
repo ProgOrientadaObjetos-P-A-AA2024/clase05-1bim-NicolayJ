@@ -24,7 +24,7 @@ public class EjemploCuatro {
         
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f - Profesor(%s) - Tipo: %s\n", 
+            System.out.printf("%s - %.2f - Profesor(%s - %s )\n", 
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
                     objetoCalificacion.obtenerProfesor().obtenerNombre(),
@@ -41,7 +41,7 @@ public class EjemploCuatro {
                     */
                     /*
                     La clase Profesor tiene 2 atributos nombre y tipo que se pueden
-                    usar al llamar por eso llamo al tipo y nombre 
+                    usar al llamar por eso llamo al tipo y nombre mmm
                     */
                     
         }
